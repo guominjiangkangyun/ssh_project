@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14D136" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Account" representedClassName="Account" syncable="YES">
+        <attribute name="department" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fans" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="hospital" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iconId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="integral" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="introduce" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sessionId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="signature" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="HomePost" representedClassName="HomePost" syncable="YES">
+        <attribute name="authorId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="authorName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="favCnt" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="imgId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="isCollection" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isCourse" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isExpertRecommand" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isExtractive" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isHot" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isIncludePic" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isTop" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="postTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="priaseCnt" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="repleCnt" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserChatMe" representedClassName="UserChatMe" syncable="YES">
+        <attribute name="notReadNum" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="chart" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserChatMeDictAttribut" syncable="YES"/>
+    </entity>
+    <entity name="UserChatMeDictAttribut" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iconId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="postTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="receiver" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="sender" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="sendId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="UserCollection" representedClassName="UserCollection" syncable="YES">
+        <attribute name="author" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="favPostDetailUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iconId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="isCourse" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isExpert" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isExtractive" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isHot" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isIncludePic" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isTop" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="postId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="postTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="replys" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="supports" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserMessage" representedClassName="UserMessage" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iconId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isCollection" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isCourse" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isSupport" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="postId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="postTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="postTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="replyId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="sender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senderId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="supports" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="UserPost" representedClassName="UserPost" syncable="YES">
+        <attribute name="authorName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="favCnt" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="favPostDetailUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imgId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="postId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="postTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="postUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="praiseCnt" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserReply" representedClassName="UserReply" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iconId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="isCollection" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="postId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="postTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="postTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sendId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Account" positionX="-63" positionY="-18" width="128" height="240"/>
+        <element name="HomePost" positionX="-200" positionY="-234" width="128" height="285"/>
+        <element name="UserChatMe" positionX="27" positionY="54" width="128" height="75"/>
+        <element name="UserChatMeDictAttribut" positionX="18" positionY="45" width="128" height="133"/>
+        <element name="UserCollection" positionX="-254" positionY="207" width="128" height="253"/>
+        <element name="UserMessage" positionX="124" positionY="288" width="128" height="225"/>
+        <element name="UserPost" positionX="106" positionY="18" width="128" height="180"/>
+        <element name="UserReply" positionX="196" positionY="117" width="128" height="165"/>
+    </elements>
+</model>

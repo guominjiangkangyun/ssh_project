@@ -1,0 +1,34 @@
+
+//
+//  Elephant.pch
+//  Elephant
+//
+//  Created by YZQ on 15/8/27.
+//  Copyright (c) 2015年 YZQ. All rights reserved.
+//
+
+#ifndef Elephant_Elephant_pch
+#define Elephant_Elephant_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "AppHead.h"
+#import "RequestHead.h"
+#import "ResponseHead.h"
+#import "AppNotificationHeader.h"
+#import "ElephantCheckNetWork.h"
+#import "UIImageView+CircleImage.h"
+#import "UIImageView+RectangleImage.h"
+#import "MGSwipeButton.h"
+#import "MGSwipeTableCell.h"
+#import "AccountShare.h"
+
+
+//#endif
+//
+//#ifdef DEBUG
+//#define NSLog(...) NSLog(__VA_AGRS__)
+//#else
+//#define NSLog(...)
+
+#endif

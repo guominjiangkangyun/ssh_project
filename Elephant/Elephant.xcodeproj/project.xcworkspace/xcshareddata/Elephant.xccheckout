@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3A5D6EB5-D84F-4F92-A7DF-69753BEB5566</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Elephant</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>04E5444A70C709BD9F0EE382AD8048EB21FF41F8</key>
+		<string>github.com:guominjiangkangyun/ssh_project.git</string>
+		<key>a5c7e6d8-5671-4e69-9555-7ffca72ca25c++8463</key>
+		<string>svn://192.168.2.99/YBsoft/trunks/05APP/02Baseline/01FSSL/V1.0/01Code/IOS</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Elephant/Elephant.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>04E5444A70C709BD9F0EE382AD8048EB21FF41F8</key>
+		<string>../../..</string>
+		<key>a5c7e6d8-5671-4e69-9555-7ffca72ca25c++8463</key>
+		<string>../../../../IOS</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>a5c7e6d8-5671-4e69-9555-7ffca72ca25c++8463</key>
+		<string>svn://192.168.2.99/YBsoft</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:guominjiangkangyun/ssh_project.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>04E5444A70C709BD9F0EE382AD8048EB21FF41F8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>a5c7e6d8-5671-4e69-9555-7ffca72ca25c++8463</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IOS</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>04E5444A70C709BD9F0EE382AD8048EB21FF41F8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ssh_project</string>
+		</dict>
+	</array>
+</dict>
+</plist>
